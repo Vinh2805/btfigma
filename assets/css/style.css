@@ -5,18 +5,19 @@ body {
   line-height: 1.6;
 }
 
-header {
-  background: #fff;
-  border-bottom: 1px solid #ddd;
-  background-image: url("../img/header/Frame3.png");
-  font-family: "SF Pro Display", "Times New Roman";
-}
-
 .top-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
+
+}
+.header-start {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  font-family: "SF Pro Display", "Times New Roman";
+  background-image: url("../img/header/Frame3.png");
+  background-size: cover;
 }
 #header1 {
   width: 462;
@@ -57,24 +58,100 @@ line-height: 24px;
 letter-spacing: 0%;
 
 }
+.header-breaking-news {
+font-weight: 400;
+font-style: Regular;
+font-size: 15px;
+leading-trim: NONE;
+line-height: 24px;
+letter-spacing: 0%;
+color: #000000;
+font-weight: 500;
+}
+.header-news-image{
+font-family: Merriweather;
+font-weight: 700;
+font-style: Bold;
+font-size: 24px;
+leading-trim: NONE;
+line-height: 36px;
+letter-spacing: 0%;
 
-.main-nav {
-  background: #b50909;
+}
+.main-news {
+ background:#DC3545;
+}
+.news-box {
+     
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content:space-between ;
+      
+    }
+    .news-box h5, .news-box h6, .news-box p {
+      color: #fff;
+    }
+    
+    .sub-news img {
+      width: 100%;
+      height: auto;
+    }
+    .sub-news a {
+      color: #fff;
+      text-decoration: none;
+    }
+    .activity-box {
+      color: #fff;
+      
+    }
+    .activity-box a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .border-dotted {
+  border-style: dotted !important;
+}
+.main-all{
+  color:#080447;
 }
 
-.main-nav ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.footer {
+  background: #086aaf;
+  padding: 20px 0;
+  text-align: center;
+  font-family: "SF Pro Display";
+}
+.footer {
+  background-color: #f5f9fc; 
+  position: relative;
+  overflow: hidden;
 }
 
-.main-nav li a {
-  display: block;
-  padding: 12px 18px;
-  color: #fff;
-  text-decoration: none;
+.footer-decor {
+  position: absolute;
+  opacity: 0.6; 
+  z-index: 0;  
 }
-.main-nav li a:hover {
-  background: #8b0606;
+
+.footer-left {
+  top: 10px;
+  left: 0;
 }
+
+.footer-right {
+  bottom: 10px;
+  right: 0;
+}
+.footer-mid {
+  top: 20px;
+  right: 180px;
+}
+.footer .container {
+  position: relative;
+  z-index: 1; 
+}
+
+
