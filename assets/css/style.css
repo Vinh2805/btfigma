@@ -118,6 +118,54 @@ letter-spacing: 0%;
   color:#080447;
 }
 
+
+.main-equipt .card-body h6 {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+.main-equipt a {
+  text-decoration: none;
+}
+
+/* Khối box */
+.editor-box {
+  background-image: url("../img/main/equipt/bg.jpg");
+  background-size: cover;
+  border: 1px solid #4671e9;
+  padding: 25px 10px;
+  margin: 20px;
+}
+
+.editor-box p {
+  font-size: 16px;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.main-mental h6,
+.main-public-health h6 {
+  padding-left: 8px;
+  
+
+}
+
+.card-body h6 {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.main-mental a,
+.main-public-health a {
+  text-decoration: none;
+}
+
+.main-mental a:hover,
+.main-public-health a:hover {
+  color: #d32f2f;
+}
+
+
 .footer {
   background: #086aaf;
   padding: 20px 0;
