@@ -112,7 +112,7 @@ letter-spacing: 0%;
     }
 
     .border-dotted {
-  border-style: dotted !important;
+  border-style: dotted;
 }
 .main-all{
   color:#080447;
@@ -130,7 +130,7 @@ letter-spacing: 0%;
 
 /* Khối box */
 .editor-box {
-  background-image: url("../img/main/equipt/bg.jpg");
+  background-image: url("../img/main/equipt/bg.png");
   background-size: cover;
   border: 1px solid #4671e9;
   padding: 25px 10px;
