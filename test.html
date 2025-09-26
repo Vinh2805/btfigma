@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Demo position</title>
+  <style>
+    body {
+      height: 2000px; /* để test scroll */
+      padding: 20px;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      border: 2px solid black;
+      height: 300px;
+      position: relative; /* cha để absolute bám vào */
+      margin-bottom: 50px;
+    }
+
+    .static {
+      position: static;
+      background: lightgray;
+    }
+
+    .relative {
+      position: relative;
+      top: 20px;
+      left: 30px;
+      background: lightblue;
+    }
+
+    .absolute {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: lightgreen;
+    }
+
+    .fixed {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      background: orange;
+      padding: 5px 10px;
+    }
+
+    .sticky {
+      position: sticky;
+      top: 0;
+      background: pink;
+      padding: 5px;
+    }
+
+    .box {
+      padding: 10px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+  <h2>Demo các loại position</h2>
+
+  <div class="sticky box">👉 Sticky (dính khi cuộn đến top)</div>
+
+  <div class="container">
+    <div class="static box">Static (mặc định)</div>
+    <div class="relative box">Relative (dịch từ vị trí gốc)</div>
+    <div class="absolute box">Absolute (bám góc phải trên container)</div>
+  </div>
+
+  <div class="fixed">👉 Fixed (cố định góc phải dưới màn hình)</div>
+</body>
+</html>
